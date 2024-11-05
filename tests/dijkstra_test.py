@@ -44,7 +44,7 @@ def test_equal_precedence_operations():
     assert evaluate_expression("4*5*2") == 40
     assert evaluate_expression("8/2/2") == 2
 
-def test_edge_cases():
+def test_dij_edge_cases():
     assert evaluate_expression("") == 0
     assert evaluate_expression("42") == 42
     assert evaluate_expression("-5") == -5
