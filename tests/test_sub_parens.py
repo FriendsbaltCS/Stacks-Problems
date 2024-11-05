@@ -1,6 +1,10 @@
 # FILE: test_sub_parens.py
 
 import pytest
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from sub_parens import max_length
 
 
